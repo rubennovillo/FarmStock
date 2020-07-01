@@ -50,3 +50,48 @@ table {
 
 /* Fin RESET */
 
+body{
+    background: rgb(126, 179, 126);
+}
+
+header{
+    background: rgb(11, 171, 177);
+}
+
+.flex{
+    display: flex;
+}
+
+.border{
+    border-bottom: black 4px solid;
+}
+
+.logo{
+   max-width: 15%; 
+   padding: 1rem;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    color: white;
+}
+
+aside{
+    width: 30%;
+    height: 100vh;
+    border-right: white 4px solid;
+}
+main{
+    width: 70%;
+    background: brown;
+}
+
+.tree{
+    width: 40%;
+    display:block;
+    margin: 3rem auto;
+   
+}
