@@ -90,8 +90,15 @@ main{
 }
 
 .tree{
-    width: 25%;
-    display:block;
-    margin: 3rem auto;
-   
+    width: 35%;
+    display: block;
+    margin: 3rem auto; 
+    border-radius: 20%;
+}
+
+.tree:hover{
+    width: 40%;
+    background: goldenrod;
+    transition: 0.8s;
+    
 }
